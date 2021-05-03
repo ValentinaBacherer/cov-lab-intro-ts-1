@@ -1,0 +1,11 @@
+{
+  "name": "3-typ-lab-kitchen-sink",
+  "version": "1.0.0",
+  "description": "kitchen sink typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
