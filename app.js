@@ -10,7 +10,7 @@ function sayHello() {
 sayHello();
 function checkAge(name, age) {
     if (age < 21) {
-        alert('Sorry' + name + ", you aren't old enough to view this page!");
+        alert('Sorry ' + name + ", you aren't old enough to view this page!");
     }
 }
 var favVegs = ['carrot', 'brocoli', 'rucula'];

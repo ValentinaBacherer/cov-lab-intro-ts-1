@@ -12,7 +12,7 @@ sayHello();
 
 function checkAge(name: string, age: number) {
   if (age < 21) {
-    alert('Sorry' + name + ", you aren't old enough to view this page!");
+    alert('Sorry ' + name + ", you aren't old enough to view this page!");
   }
 }
 
@@ -65,9 +65,9 @@ function getLength(word: string): number {
   return word.length;
 }
 
-const phraseLength = getLength('Hello World');
+const phraseLength: number = getLength('Hello World');
 
-function finalSentence(num: number) {
+function finalSentence(num: number): void {
   if (num % 2 === 0) {
     console.log('The world is nice and even');
   } else {
@@ -77,7 +77,7 @@ function finalSentence(num: number) {
 
 finalSentence(phraseLength);
 
-const moreFriends = [
+const moreFriends: Array<IPerson> = [
   {
     name: 'Charl',
     age: 31,
@@ -100,6 +100,6 @@ const moreFriends = [
   },
 ];
 
-for (let i = 0; i < moreFriends.length; i++) {
+for (let i: number = 0; i < moreFriends.length; i++) {
   checkAge(moreFriends[i].name, moreFriends[i].age);
 }
